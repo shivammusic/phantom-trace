@@ -31,6 +31,8 @@ py -m venv .venv
 ```
 
 Open <http://127.0.0.1:8766>. Model setup needs internet once; analysis does not.
+Open <http://127.0.0.1:8766/?demo=1> to run the fictional sample automatically
+for a repeatable demonstration or screenshot.
 
 ## Input format
 

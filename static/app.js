@@ -51,3 +51,7 @@ $('analyze').onclick = async () => {
     $('analyze').textContent = 'Trace recurring ghosts';
   }
 };
+
+if (new URLSearchParams(window.location.search).get('demo') === '1') {
+  window.setTimeout(() => $('analyze').click(), 100);
+}
