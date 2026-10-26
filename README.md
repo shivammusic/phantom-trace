@@ -9,6 +9,10 @@ It was started on October 26, 2026 for the DEV Hacktoberfest Week 4 challenge,
 **Ghost in the Machine**. The sample data is fictional and contains no private
 operational information.
 
+## Demo
+
+![Phantom Trace grouping nine fictional CI/CD events into three recurring patterns and one isolated event](https://github.com/user-attachments/assets/10b1d00f-2308-4fcf-bf65-f57983c4c559)
+
 ## Why open AI is core
 
 Keyword searches miss `x509 certificate has expired` when you search for

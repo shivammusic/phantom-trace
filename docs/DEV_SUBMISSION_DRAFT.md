@@ -32,9 +32,7 @@ than its evidence.
 
 ## Demo
 
-<!-- Replace this line with the uploaded demo image or GIF before publishing. -->
-
-`TODO(PUBLICATION): replace with the uploaded demo image or GIF.`
+![Phantom Trace grouping nine fictional CI/CD events into three recurring patterns and one isolated event](https://github.com/user-attachments/assets/10b1d00f-2308-4fcf-bf65-f57983c4c559)
 
 In the verified sample run, Phantom Trace analyzes nine fictional events and
 returns three recurring patterns plus one isolated event. Expanding a result
@@ -55,9 +53,9 @@ Model setup needs the internet once. Analysis itself does not.
 
 ## Code
 
-<!-- Replace with the public repository URL after publication approval. -->
+{% github shivammusic/phantom-trace %}
 
-`TODO(PUBLICATION): replace with the approved public GitHub repository URL.`
+Source: https://github.com/shivammusic/phantom-trace
 
 The project is intentionally small enough to audit:
 
