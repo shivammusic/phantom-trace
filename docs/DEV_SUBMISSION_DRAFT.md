@@ -32,7 +32,7 @@ than its evidence.
 
 ## Demo
 
-![Phantom Trace grouping nine fictional CI/CD events into three recurring patterns and one isolated event](https://github.com/user-attachments/assets/10b1d00f-2308-4fcf-bf65-f57983c4c559)
+![Phantom Trace grouping nine fictional CI/CD events into three recurring patterns and one isolated event](https://github.com/user-attachments/assets/250e6550-f8f0-4e39-ab6c-96b09df073e1)
 
 In the verified sample run, Phantom Trace analyzes nine fictional events and
 returns three recurring patterns plus one isolated event. Expanding a result
