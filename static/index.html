@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phantom Trace — local incident archaeology</title>
+  <meta name="description" content="Find recurring failure patterns in historical CI/CD logs with local open-weight AI.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">OFFLINE INCIDENT ARCHAEOLOGY</p>
+      <h1>Find what keeps <em>haunting</em> your pipeline.</h1>
+      <p class="lede">Phantom Trace uses a local open-weight embedding model to connect failures that mean the same thing—even when their wording changes. Your logs stay on this machine.</p>
+      <div class="trust"><span>● Local inference</span><span>● Evidence preserved</span><span>● No generated root causes</span></div>
+    </header>
+
+    <section class="workbench" aria-labelledby="input-title">
+      <div class="section-head"><div><p class="step">01 / SUMMON</p><h2 id="input-title">Paste historical events</h2></div><button id="sample" class="quiet">Restore sample</button></div>
+      <label for="logs">One event per line: ISO timestamp | source | message</label>
+      <textarea id="logs" spellcheck="false"></textarea>
+      <div class="controls">
+        <label for="threshold">Similarity <output id="threshold-value">0.55</output></label>
+        <input id="threshold" type="range" min="0.55" max="0.90" value="0.55" step="0.01">
+        <button id="analyze" class="primary">Trace recurring ghosts</button>
+      </div>
+      <p id="error" role="alert"></p>
+    </section>
+
+    <section id="results" class="results hidden" aria-live="polite">
+      <div class="section-head"><div><p class="step">02 / INVESTIGATE</p><h2>Recurring apparitions</h2></div><div id="summary" class="summary"></div></div>
+      <div id="clusters" class="clusters"></div>
+    </section>
+  </main>
+  <footer>Phantom Trace · MiniLM-L6-v2 · Everything runs locally</footer>
+  <script src="/app.js"></script>
+</body>
+</html>
